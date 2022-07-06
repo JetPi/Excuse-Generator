@@ -1,9 +1,9 @@
 let who = ['the dog','my granma','his turtle','my bird', 'a car'];
-let what = ['eat','pissed','crushed','broked', 'tore'];
+let what = ['ate','pissed','crushed','broked', 'tore'];
 let when = ['before the class','right in time','when I finished','during my lunch','while I was praying'];
 
 const sentenceSelector = (subject) =>{
-    let num = Math.floor(Math.random()*(subject.length-1)+1)
+    let num = Math.floor(Math.random()*(subject.length-1))
     return num;
 }
 
